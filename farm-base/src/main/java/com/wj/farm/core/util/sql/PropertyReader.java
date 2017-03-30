@@ -1,4 +1,4 @@
-package com.wj.farm.core.util.xml;
+package com.wj.farm.core.util.sql;
 
 import java.io.InputStream;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.wj.farm.core.util.xml;
+package com.wj.farm.core.util.sql;
 
 import java.util.HashMap;
 import java.util.List;
@@ -66,16 +66,5 @@ public class XmlReader {
             }
         }
         return map;
-    }
-    public static void main(String[] args) {
-        HashMap<String, String> map = XmlReader.getSql("newFile.xml" );
-        System.out.println("map size :" + map.size());
-        for (String key : map.keySet())
-        {
-            System.out.println("key:" + key);
-            System.out.println("value:" + map.get(key));
-            System.out.println("-------------------------分割线----------------------");
-        }
-
     }
 }
